@@ -11,7 +11,7 @@
     align-items: center;
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
-    width: 900px;
+    width: 1200px;
   }
   
   .coin {
@@ -34,6 +34,7 @@
   
   .coin-symbol {
     text-transform: uppercase;
+    padding-left: 30px;
   }
   
   .coin-data {
@@ -44,11 +45,12 @@
   }
   
   .coin-price {
-    width: 110px;
+    width: 150px;
   }
   
   .coin-volume {
     width: 200px;
+    padding-right: 30px;
   }
   
   .coin-marketcap {
@@ -59,6 +61,10 @@
     width: 80px;
   }
   
+  .daily-low {
+    width: 80px;
+  }
+
   .red {
     color: #f00606;
   }
